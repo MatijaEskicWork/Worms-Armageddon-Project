@@ -7,3 +7,5 @@ How to run the game?
 1.Go into worms directory
 2.Double click on Debug folder
 3.Start the game by selecting Worms.exe file
+
+Enjoy the game
