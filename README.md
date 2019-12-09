@@ -9,8 +9,12 @@ How to run the game?
 
 1.Go into worms directory
 
-2.Double click on Debug folder
+2.Download the zip file
 
-3.Start the game by selecting Worms.exe file
+3.When you download it, extract it and open Worms directory
+
+4.Double click on Debug folder
+
+5.Start the game by selecting Worms.exe file
 
 Enjoy the game
