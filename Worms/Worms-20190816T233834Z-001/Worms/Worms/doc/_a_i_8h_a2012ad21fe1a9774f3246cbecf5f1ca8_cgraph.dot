@@ -1,0 +1,23 @@
+digraph "AIDecision"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="AIDecision",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Main AI function used for making decision what to do."];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="InRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_i_8c.html#a276fe62b7f28ed6e5fd5aacbf9cd8922",tooltip="Checking if worm2 is in range of worm1's fire."];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Worm1Right",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_i_8c.html#a1c500bbdda3d2dde9532b2c3fc89d40e",tooltip="Checking if worm1 is positioned right to worm2 on map."];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MoveLeft",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#a9ff2f4b2a93dcfb706919fd4171e163d",tooltip="Function used for moving worm left."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UpdateWormMove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#af0ef0d0fb99349d4386beaf89fc6675d",tooltip="Function used for updating worm on screen and everything that changes."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CheckBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#a468e6bee1a546cf14c4729cd44d9597f",tooltip="Function used to check if an object has reached the end of terrain."];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MoveRight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#a76ae2bac6aeb3cfd5ea5d9d605b316bc",tooltip="Function used for moving worm right."];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="FindAngle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_i_8c.html#ac083d210d302be5eb8ac382d3f7574c2",tooltip="Used for finding the right angle for worm1 to shoot worm2."];
+}

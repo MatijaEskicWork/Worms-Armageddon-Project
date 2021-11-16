@@ -1,0 +1,33 @@
+digraph "Highscores"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node67 [label="Highscores",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function used for writing your name into highscores and printing highscores on screen."];
+  Node67 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="InitCreateTexture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$init_create_8c.html#a096213ed2cc5a753b21f157814a4ed01",tooltip="Creating and initializing of texture. 1 if isnt succesfull, 0 otherwise."];
+  Node67 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="UpdateHighScores",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#aa9ad9063961454218812e89a854fa980",tooltip="Function used for updating highscores file after every game."];
+  Node69 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="CreateHighScoresFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#a9207893ef101ead3c6d6336dc909884e",tooltip="Function used for creating highscores file."];
+  Node70 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="FileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#abed98d4c187d0990eea24ba93bcbb542",tooltip="Function used to check if file exists."];
+  Node70 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="Original",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#abc2d21321218271c3f69ad98b3e190e5",tooltip="Checking if file is okay."];
+  Node70 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="Encrypt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#a90b11544d2439ae6a7d8dd595772c239",tooltip="Function used for encypting name and score before storing them in file."];
+  Node69 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="ReadHighScores",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#a5407da418def18baa7e871e10a24fc80",tooltip="Function used for reading highscore list from file."];
+  Node74 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="Decrypt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#a812ea6f83eb244f1a669998454109f2c",tooltip="Function used for decrypting player name and score after reading it from file and before printing on ..."];
+  Node69 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="WriteToHSFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#a60eefc0d97fda41d160cc80f4ea01444",tooltip="Function used to write encrypted names and scores into file."];
+  Node76 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="MakeHighscores",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$making_menu_8c.html#a3ed949b06347ac576701c7fc1b40bccb",tooltip="Function used for reading higschores and creating HighScores window."];
+  Node77 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="CheckIfHover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$making_menu_8c.html#afc43a28ca87591786836417e88f766a8",tooltip="Checks if mouse has hovered button."];
+}

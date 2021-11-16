@@ -1,0 +1,24 @@
+digraph "HandleReleasedKey2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="HandleReleasedKey2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function used to determine which button has been released by player2."];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="DrawBazooka",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_worm_8c.html#ac7de59f5b8359eb805d0d4aec0580b09",tooltip="Function used for drawing bazooka on screen by initializing it's parameters and uploading it's textur..."];
+  Node41 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="CheckBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#a468e6bee1a546cf14c4729cd44d9597f",tooltip="Function used to check if an object has reached the end of terrain."];
+  Node40 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="Firee",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#ad222cc7ef964e3ac463441481aab811b",tooltip="Preparing and shooting missile, without its flight."];
+  Node43 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="MissileFlight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#abf11b449e8f63b946ed91c6e3276cd01",tooltip="Function used for making missile fly on parabolic trajectory."];
+  Node44 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="MissileWormCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#a9f146395d72c84962e18206af908752c",tooltip="Function used to check if missile has hit the worm."];
+  Node44 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="DestructiveMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#ac16e4fdd7a567918f1d8587c011da1b3",tooltip="Updating map affected by missile."];
+  Node46 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="MapMissileCollision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8c.html#a09a7fdd30cf659f4daccabbe9dad464c",tooltip="Function which check if collision between map and missile has occured."];
+}

@@ -1,0 +1,14 @@
+digraph "CreateHighScoresFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CreateHighScoresFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function used for creating highscores file."];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="FileExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#abed98d4c187d0990eea24ba93bcbb542",tooltip="Function used to check if file exists."];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Original",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#abc2d21321218271c3f69ad98b3e190e5",tooltip="Checking if file is okay."];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Encrypt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$high_scores_8c.html#a90b11544d2439ae6a7d8dd595772c239",tooltip="Function used for encypting name and score before storing them in file."];
+}

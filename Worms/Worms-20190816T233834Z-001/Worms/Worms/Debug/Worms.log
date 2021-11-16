@@ -1,0 +1,60 @@
+﻿  AI.c
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(62): warning C4013: 'printf' undefined; assuming extern returning int
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(63): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(61): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(162): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(118): warning C4101: 'distance': unreferenced local variable
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(119): warning C4101: 'anglemax': unreferenced local variable
+e:\faks\2. semestar\pp2\project final\worms\worms\ai.c(119): warning C4101: 'temp': unreferenced local variable
+  continue.c
+  game.c
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(43): warning C4101: 'i': unreferenced local variable
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(99): warning C4101: 'i': unreferenced local variable
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(192): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(193): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(198): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(199): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(233): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(234): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(314): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(315): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(324): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(325): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(465): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(466): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(630): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(631): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(634): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(635): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(667): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(668): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(671): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\game.c(672): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  gameMode.c
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(97): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(98): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(249): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(250): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(436): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(342): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(343): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(631): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  highScores.c
+e:\faks\2. semestar\pp2\project final\worms\worms\highscores.c(104): warning C4090: 'function': different 'const' qualifiers
+  initCreate.c
+  Main.c
+e:\faks\2. semestar\pp2\project final\worms\worms\main.c(107): warning C4020: 'MakeMain': too many actual parameters
+  makingMenu.c
+e:\faks\2. semestar\pp2\project final\worms\worms\makingmenu.c(99): warning C4029: declared formal parameter list different from definition
+e:\faks\2. semestar\pp2\project final\worms\worms\makingmenu.c(333): warning C4047: '=': 'int *' differs in levels of indirection from 'int'
+  map.c
+e:\faks\2. semestar\pp2\project final\worms\worms\map.c(28): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\faks\2. semestar\pp2\project final\worms\worms\map.c(31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Worm.c
+e:\faks\2. semestar\pp2\project final\worms\worms\worm.c(79): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+e:\faks\2. semestar\pp2\project final\worms\worms\gamemode.c(895): warning C4716: 'Reset': must return a value
+  Worms.vcxproj -> E:\FAKS\2. semestar\PP2\Project Final\Worms\Debug\Worms.exe
